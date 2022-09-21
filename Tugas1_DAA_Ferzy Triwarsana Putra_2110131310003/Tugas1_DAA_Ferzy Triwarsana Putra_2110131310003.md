@@ -45,7 +45,7 @@ Terdapat beberapa macam **time complexity**, diantaranya:
 
 Contoh diatas, terdapat sebuah fungsi untuk mengambil elemen pertama dari sebuah input array. Kita bisa melihat bahwa berapapun jumlah array yang diberikan kepada fungsi tersebut, dia akan selalu melakukan 1 hal, yaitu mengambil elemen pertama. Itu artinya **jumlah input yang diberikan tidak mempengaruhi waktu proses (*runtime*) dari algoritma tersebut**.
 
-<p align="center"><img src="gambar/1.PNG" alt="perintah top" width="500px">
+<p align="center"><img src="gambar/1.png" alt="Constant Time" width="500px">
 
         Constant Time
 
@@ -95,7 +95,7 @@ Contoh diatas, terdapat sebuah fungsi untuk mengambil elemen pertama dari sebuah
 
 Kita bisa melihat bahwa **semakin banyak jumlah input yang diberikan, maka waktu proses/*runtime* dari fungsi tersebut akan semakin besar**.
 
-<p align="center"><img src="gambar/2.PNG" alt="perintah top" width="500px">
+<p align="center"><img src="gambar/2.png" alt="Linear Time" width="500px">
 
         Linear Time
 
@@ -118,7 +118,7 @@ Kita bisa melihat bahwa **semakin banyak jumlah input yang diberikan, maka waktu
     }
     let sortedArray = sort(myArray);
 
-<p align="center"><img src="gambar/3.PNG" alt="perintah top" width="500px">
+<p align="center"><img src="gambar/3.png" alt="Quadratic Time" width="500px">
 
         Quadratic Time
 
@@ -126,7 +126,7 @@ Kita bisa melihat bahwa **semakin banyak jumlah input yang diberikan, maka waktu
 
 **Exponential Time** biasanya digunakan dalam situasi dimana kita tidak terlalu tahu terhadap permasalahan yang dihadapi, sehingga mengharuskan kita mencoba setiap **kombinasi** dan **permutasi** dari semua kemungkinan.
 
-<p align="center"><img src="gambar/4.PNG" alt="perintah top" width="500px">
+<p align="center"><img src="gambar/4.png" alt="Exponential Time" width="500px">
 
         Exponential Time
 
